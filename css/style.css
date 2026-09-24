@@ -38,3 +38,22 @@ img {
   display: inline-block;
   margin: 10px;
 }
+
+#main_page_header {
+    background-color: maroon;
+    text-align: center;
+}
+
+#songs {
+  width: 50%;
+  background-color: lightblue;
+  border: 1px solid black;
+  padding: 10px;
+}
+
+#albums {
+  width: 50%;
+  background-color: grey;
+  border: 1px solid black;
+  padding: 10px;
+}
