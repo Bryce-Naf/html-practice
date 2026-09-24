@@ -1,0 +1,29 @@
+header {
+    background-color: maroon;
+    text-align: center;
+}
+
+h3 {
+    font-size: 30px;
+    text-align: center;
+}
+
+body {
+    background-color: rgb(188, 34, 34);
+}
+
+* {
+    font-family: sans-serif;
+}
+
+img {
+  width: 50%;
+  border-radius: 8px;
+  display: block;
+  margin: auto;
+}
+
+.subheader {
+    font-weight: bold;
+    font-size: 20px;
+}
