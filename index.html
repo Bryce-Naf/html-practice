@@ -6,41 +6,45 @@
     <link rel="stylesheet" href="./css/style.css" />
   </head> 
   <body> 
-    <header id="main_page_header">
-        <h1>My Music Interests</h1>
-        <p>This page has all the info about my music interests.</p>
-    </header>
-    <main id="page1_content">
-        <article id="muse">
-            <h2>Muse</h2>
-            <img src="./img/Muse.jpg" alt="An image of Muse and the Uprising logo" width="50%">
-            <div id="song_album_wrapper">
-                <section id="songs">
-                    <p class="subheader">Favorite Songs</p>
+    <div class="container mt-4">
+        <header class="text-center mb-4">
+            <h1>My Music Interests</h1>
+            <p class="lead">This page has all the info about my music interests.</p>
+        </header>
+        <main id="page1_content">
+            <article id="muse">
+                <h2>Muse</h2>
+                <img src="./img/Muse.jpg" alt="An image of Muse and the Uprising logo" width="50%">
+                <div class="row">
+                    <section id="songs" class="col-md-6 mb-4">
+                        <p class="subheader">Favorite Songs</p>
+                        <ul>
+                            <li>Hexagons</li>
+                            <li>Hysteria</li>
+                            <li>Starlight</li>
+                        </ul>
+                    </section>
+                    <section id="albums" class="col-md-6 mb-4">
+                    <p class="subheader">Best Albums</p>
+                        <ol>
+                            <li>Absolution</li>
+                            <li>Black Holes and Revelations</li>
+                            <li>The Wow! Signal</li>
+                        </ol>
+                    </section>
+                </div>
+                <p class="text-center">Find out more about <a href="https://www.muse.mu/" class="btn btn-primary">Muse</a></p>
+            </article>
+            <footer class="mt-5">
+                <nav id="footer" class="d-flex justify-content-center gap-4">
+                    <h3>My Other Favorite Artists</h3>
                     <ul>
-                        <li>Hexagons</li>
-                        <li>Hysteria</li>
-                        <li>Starlight</li>
+                        <li><a href="./cacola.html" class="btn btn-success">Cacola</a></li>
+                        <li><a href="./au5.html" class="btn btn-success">Au5</a></li>
                     </ul>
-                </section>
-                <section id="albums">
-                <p class="subheader">Best Albums</p>
-                    <ol>
-                        <li>Absolution</li>
-                        <li>Black Holes and Revelations</li>
-                        <li>The Wow! Signal</li>
-                    </ol>
-                </section>
-            </div>
-            <p class="button">Find out more about <a href="https://www.muse.mu/">Muse</a></p>
-        </article>
-        <nav id="footer">
-            <h3>My Other Favorite Artists</h3>
-            <ul>
-                <li><a href="./cacola.html">Cacola</a></li>
-                <li><a href="./au5.html">Au5</a></li>
-            </ul>
-        </nav>
-    </main>
+                </nav>
+            </footer>
+        </main>
+    </div>
   </body> 
 </html>
